@@ -1,0 +1,29 @@
+{
+  "name": "opencode-tabbed",
+  "version": "0.1.0",
+  "description": "MRU tab cycling for OpenCode like the Alt+Tab shortcut",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./tui": "./src/tui.ts"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "tabs",
+    "ctrl-tab",
+    "alt-tab",
+    "mru"
+  ],
+  "author": "m_uvex",
+  "license": "MIT",
+  "dependencies": {
+    "@opencode/plugin": "^2.0.26",
+    "@opentui/core": "^0.6.6",
+    "@opentui/solid": "^0.6.6",
+    "solid-js": "^1.9.17"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
